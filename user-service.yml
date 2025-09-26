@@ -1,0 +1,7 @@
+server:
+  port: 8788
+spring:
+  application:
+    name: user
+custom:
+  user-property: "This is custom property for user"

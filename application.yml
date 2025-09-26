@@ -1,0 +1,6 @@
+shared:
+  property: "This is shared across all services"
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

@@ -1,0 +1,7 @@
+server:
+  port: 8789
+spring:
+  application:
+    name: payment
+custom:
+  payment-property: "This is custom property for payment"
