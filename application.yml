@@ -5,9 +5,11 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 
-spring:
-  sleuth:
-    tracer:
-      enabled: true
-    propagation:
-      type: w3c
+management:
+  tracing:
+    enabled: true
+tracing:
+  observation:
+    enabled: true
+  propagation:
+    type: w3c
