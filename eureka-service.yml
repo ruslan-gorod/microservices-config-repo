@@ -1,0 +1,7 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: eureka
+custom:
+  client-property: "This is custom property for eureka"
