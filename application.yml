@@ -8,8 +8,13 @@ eureka:
 management:
   tracing:
     enabled: true
+    sampling:
+      probability: 1.0  # 100% запитів будуть трасуватися
 tracing:
   observation:
     enabled: true
   propagation:
     type: w3c
+logging:
+  pattern:
+    level: "[%X{traceId:-}] %5p"
